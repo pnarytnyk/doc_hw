@@ -27,6 +27,6 @@ Verify that tcpdump on server container shows ICMP packets received from client 
 
 5) Commands to verify netcat scripts
 
-To check TCP connectivity using netcat start `server.sh` script on `server` container and then start `client.sh` script on `client`.
+To check TCP connectivity using netcat `cd` into `net_test` directory and start `server.sh` script on `server` container and then start `client.sh` script on `client` from the same directory.
 Verify that contents of `testdata` file are displayed on server side.
 To check UDP connectivity use same logic with `serverUDP.sh` and `clientUDP.sh`
